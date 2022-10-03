@@ -1,0 +1,210 @@
+@font-face {
+    font-family: "Roboto-Regular"; 
+    src: url("../fonts/Roboto-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #111115;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+}
+.menu_content{
+display: flex;
+}
+.menu ul li {
+  color: #ffffff;
+  list-style-type: none;
+}
+.menu ul {
+  display: flex;
+ 
+  width:400px ;
+  font-size: 16px;
+}
+.designed{
+color: #ffffff;
+font-size: 16px;
+}
+.header__content {
+display: flex;
+width: 1155px;
+justify-content: space-between;
+align-items: center;
+}
+.backside{
+background-image: url(../images/Panda.png);
+background-repeat: no-repeat;
+color: #7d2835;
+height: 780px;
+background-size: 100%;
+position: relative;
+}
+.circle {
+    background: #F9804B;
+    border-radius: 50%;
+    height: 465px;
+    width: 465px;
+    position: absolute;
+    right: 328px;
+    bottom: 223px;
+  }
+.text{
+font-size: 30px;
+color: #9b1717;
+position: absolute;
+bottom: 214px;
+right:220px;
+width: 500px;
+height: 400px;
+font-weight: 700px;
+font-size: 106.5px;
+font-family:"Roboto-Regular";
+text-transform: uppercase;
+color: #ffffff;
+line-height: 75%;
+}
+.world{
+color:#FFEE2E;
+}
+.watch_button{
+  background: #F9804B;
+  height: 54px;
+  width: 298px;
+  position: absolute;
+  border-radius: 25px;
+  bottom: 100px;
+  right: 319px;
+  color: #ffffff;
+  font-family:"Roboto-Regular";
+  font-style: normal;
+  font-weight: 500;
+   font-size: 16px;
+   border:none;
+
+}
+.animals__container{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ margin-top: 30px;
+
+ 
+ 
+}
+.animals{
+width:1158px;
+height:872px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin:0px 16px ;
+
+}
+
+.title{
+width: 338px;
+margin-left: 16px;
+display: flex;
+justify-content: space-between;
+font-weight: 22px;
+margin-top: 8px;
+}
+.title__content{
+font-weight: 22px;
+
+
+}
+.animal_description{
+height: 426px;
+border:1px solid #FA6F32;
+}
+
+.choose{
+  background: #F9804B;
+  height: 54px;
+  width: 298px;
+  border-radius: 25px;
+  color: #ffffff;
+  font-family:"Roboto-Regular";
+  font-style: normal;
+  font-weight: 500;
+   font-size: 16px;
+   position: absolute;
+   left: 50%;
+   margin:auto
+   
+
+}
+
+.choose__favourite{
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  height: 230px;
+  position: relative;
+
+}
+.bottom__container{
+display: flex;
+flex-wrap: nowrap;
+height:500px ;
+}
+
+.bush{
+  border:10px solid olive;
+
+}
+
+.flower{
+  
+  border:10px solid olive;
+
+}
+.panda_description_content{
+
+font-weight: bold;
+}
+.description{
+font-size: 15px;
+}
+.palma{
+position: absolute;
+bottom:0px;
+
+}
+.steritzia{
+position: absolute;
+bottom:0px;
+right: 0px;
+}
+
+.arrow{
+  background: #F9804B;
+  height: 62px;
+  width: 62px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.slider{
+display: flex;
+align-items: center;
+
+}
+
+
+.animal_description:hover {
+  border: 2px solid #7d2835;
+
+}
